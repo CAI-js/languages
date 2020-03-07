@@ -16,9 +16,8 @@ $ npm install @caijs/lang-en
 ## Languages supported
 
 | Language | Locale | Package        | Github |
-| :------- | :----: | :--------- --: | :----: |
-| English  |   en   | @caijs/lang-en | [Link](https://github.com/CAI-js/languages/tree/master/packages/lang-en) |
-
+|----------|--------|----------------|--------|
+| English  | en     | @caijs/lang-en | [Link](https://github.com/CAI-js/languages/tree/master/packages/lang-en)       |
 
 ## Tokenize and stem a sentence
 
