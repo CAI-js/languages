@@ -1,0 +1,50 @@
+{
+  "name": "languages",
+  "description": "CAI language libraries",
+  "scripts": {
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
+    "postinstall": "lerna bootstrap",
+    "lint": "eslint .",
+    "lintfix": "eslint --fix .",
+    "test": "eslint --fix . && jest --silent --coverage --maxWorkers=4 ."
+  },
+  "author": {
+    "email": "jseijas@gmail.com",
+    "name": "Jesus Seijas"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAI-js/languages.git"
+  },
+  "bugs": {
+    "url": "git+https://github.com/CAI-js/languages/issues"
+  },
+  "maintainers": [
+    {
+      "email": "jseijas@gmail.com",
+      "name": "Jesus Seijas"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^3.0.9",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^25.1.0",
+    "lerna": "^3.20.2",
+    "prettier": "^1.19.1"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/",
+    "collectCoverage": false,
+    "collectCoverageFrom": [],
+    "coverageDirectory": "coverage",
+    "testEnvironment": "node"
+  }
+}

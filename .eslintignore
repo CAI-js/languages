@@ -1,0 +1,4 @@
+packages/**/*.json
+coverage/**
+node_modules
+packages/**/*stemmer.js
