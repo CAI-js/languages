@@ -1,6 +1,6 @@
 {
   "name": "@caijs/lang-en",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Language English",
   "author": {
     "email": "jseijas@gmail.com",
@@ -23,6 +23,6 @@
   "main": "src/index.js",
   "scripts": {},
   "dependencies": {
-    "@caijs/base-stemmer": "0.0.1"
+    "@caijs/base-stemmer": "^1.0.0"
   }
 }
