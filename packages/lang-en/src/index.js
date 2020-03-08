@@ -21,7 +21,17 @@ function tokenizeAndStem(sentence) {
   return result;
 }
 
+const info = {
+  iso2: 'en',
+  iso3: 'eng',
+  language: 'English',
+  culture: 'en-us',
+  name: 'lang-en',
+  isSingleton: true,
+}
+
 module.exports = {
+  info,
   normalize,
   tokenize,
   Stemmer,
