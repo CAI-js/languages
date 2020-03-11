@@ -1,6 +1,6 @@
 {
   "name": "@caijs/lang-def",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Language Default",
   "author": {
     "email": "jseijas@gmail.com",
@@ -21,6 +21,5 @@
   ],
   "license": "MIT",
   "main": "src/index.js",
-  "scripts": {},
-  "dependencies": {}
+  "scripts": {}
 }
