@@ -1,0 +1,26 @@
+{
+  "name": "@caijs/lang-def",
+  "version": "1.0.0",
+  "description": "Language Default",
+  "author": {
+    "email": "jseijas@gmail.com",
+    "name": "Jesus Seijas"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAI-js/languages.git"
+  },
+  "bugs": {
+    "url": "git+https://github.com/CAI-js/languages/issues"
+  },
+  "maintainers": [
+    {
+      "email": "jseijas@gmail.com",
+      "name": "Jesus Seijas"
+    }
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {},
+  "dependencies": {}
+}

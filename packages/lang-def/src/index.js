@@ -22,11 +22,11 @@ function tokenizeAndStem(sentence) {
 }
 
 const info = {
-  iso2: 'en',
-  iso3: 'eng',
-  language: 'English',
-  culture: 'en-us',
-  name: 'lang-en',
+  iso2: 'xx',
+  iso3: 'xxx',
+  language: 'Default',
+  culture: 'xx-xx',
+  name: 'lang',
   isSingleton: true,
 };
 
