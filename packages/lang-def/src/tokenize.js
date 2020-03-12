@@ -1,1 +1,1 @@
-module.exports = text => text.split(/\W+/).filter(x => x);
+module.exports = text => text.split(/[\s,.!?;:([\]'"¡¿)/]+/).filter(x => x);
